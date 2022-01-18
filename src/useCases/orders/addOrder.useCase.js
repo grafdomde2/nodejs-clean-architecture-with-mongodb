@@ -19,7 +19,7 @@ module.exports = dependencies => {
     if(!ordersRepository){
         throw new Error('ordersRepository should be exists in denpendencies')
     }
-
+    
     ///////////////
     const getValidationErrors = validator(dependencies);
 

@@ -28,6 +28,7 @@ module.exports.ResponseError = class ResponseError {
     }
 }
 
+// ValidationErros structure
 module.exports.ValidationError = class ValidationError {
     constructor({
         field, 
